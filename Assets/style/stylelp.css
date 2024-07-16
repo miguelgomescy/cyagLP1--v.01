@@ -747,7 +747,10 @@ footer a:hover{
    
     }
 
-    
+    .container-2 .buton-org{
+        margin-bottom: 50px;
+    }
+
 .footer-logo img{
     border-radius: 100%;
     width: 90%;
