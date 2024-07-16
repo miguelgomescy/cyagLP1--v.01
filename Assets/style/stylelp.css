@@ -596,74 +596,242 @@ footer a:hover{
 }
 
 
-@media (max-width: 600px) {
-
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-    *{
-        font-family: 'Montserrat', sans-serif;
-        box-sizing: border-box;
-    }
 
 
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para telas menores, como tablets */
 
     header{
         display: none;
     }
-
-    main{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        box-sizing: border-box;
-    }
     
+    .logo img {
+        width: 80px;
+    }
 
-    .container-1{
-        width: 100%;
+    header {
+        height: 80px;
+        padding: 10px 20px;
+    }
+
+    header ul {
+        gap: 20px;
+    }
+
+    header button {
+        width: 200px;
+    }
+
+    .container-1 {
         display: flex;
         flex-direction: column;
+        height: 750px;
+        padding: 20px;
         align-items: center;
         justify-content: center;
     }
-    .container-1 h1{
+
+    .titulo-c1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .space-cat {
+        margin-right: 0;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .img-gato{
+        margin-top: -30px;
+        width: 100%;
+        height: 60%;
+    }
+
+    .conferir{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .conferir a{
         font-size: 20px;
-        
     }
-    .container-2{
-        
-    }
-    .container-3{
-        
-    }
-    .container-4{
-        
-    }
+
     
-    footer{
-        display: flex;
+    .titulo-c1 h1 {
+        text-align: center;
+    }
+
+    .service-box {
         flex-direction: column;
-        align-items: center;
-        width: 100%;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .service-box {
+        flex-direction: column; /* Stack services vertically */
+        width: 100%; /* Make each service box take up full width */
+        margin-bottom: 10px; /* Add spacing between services */
+      }
+
+    .service {
+    width: 100%; /* Allow services to wrap to the next line */
+    padding: 20px; /* Increase padding for better spacing */
+    display: flex;
+
+    }
+
+
+    .titulo-c2 h1 {
+      
+        text-align: center;
+    }
+
+    
+    .service-icon i{
+       font-size: 20px;
+       margin-bottom: -70px;
+       display: none;
+    }
+
+    .texto-services{
+        text-align: center; 
+    }
+
+    .texto-services p{
+        display: none;
+    }
+    .texto-services h2{
+       font-size: 25px;
+    }
+
+    .container-3{
         height: 700px;
+        margin-bottom: 150px;
     }
 
-    .footer-info{
-        flex-direction: column;
-    }
-
-    .footer-logo{
-        padding-top: 30px;
-        background-color: #fff;
-        border-radius: 0px 00px 50px 50px;
-        margin-bottom: 5px;
+    .container-organization{
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .quem{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-quem{
+        border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/Logo.png');
+    width: 0%;
+    height: 0%;
+   
+    }
+
+    
+.footer-logo img{
+    border-radius: 100%;
+    width: 100px;
+    height: 90%;
+}
+
+.footer-logo{
+    padding-top: 80px;
+    background-color: #fff;
+    border-radius: 0px 00px 50px 50px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+   
+    header{
+        display: none;
+    }
+
+    .titulo-c1 h1 {
+        font-size: 24px;
+    }
+
+    .titulo-c2 h1 {
+        font-size: 40px;
+    }
+
+    .service-box {
+        gap: 10px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .container-organization {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .quem {
+        text-align: center;
+    }
+
+    .quem-image {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo-quem{
+        border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/Logo.png');
+    width: 0%;
+    height: 0%;
+   
+    }
+}
 
 /*
 
