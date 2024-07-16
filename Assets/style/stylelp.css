@@ -750,7 +750,7 @@ footer a:hover{
     
 .footer-logo img{
     border-radius: 100%;
-    width: 100px;
+    width: 90%;
     height: 90%;
 }
 
@@ -760,6 +760,9 @@ footer a:hover{
     border-radius: 0px 00px 50px 50px;
     margin-bottom: 15px;
     margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 }
